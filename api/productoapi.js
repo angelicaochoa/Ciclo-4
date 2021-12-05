@@ -3,6 +3,7 @@ const router = Router();
 const productos = require('../controllers/productocontrollers')
 const verify = require('../middlewares/autjwt')
 
+
 router.get('/', productos.listarproductos);
 //router.post('/', [verify.verify, verify.isiadministrador], productos.Crearproductos); // primero debe verificar tipo el usuario
 router.post('/add', productos.Crearproductos);

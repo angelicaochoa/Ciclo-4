@@ -9,6 +9,7 @@ productos.listarproductos = async (req,res)=>{
     res.send(cursodb)
 
 };
+
 //listar la lista de productos
 productos.listarproductos = async (req,res)=>{
     const productodb = await producto.find()

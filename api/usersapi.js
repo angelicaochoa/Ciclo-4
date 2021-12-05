@@ -9,6 +9,7 @@ const router = express.Router();
 // router.delete("/add", usercontrollers.eliminarzapato );
 
 
+
 // Exportar
 router.get('/', User.listarUser);
 

@@ -5,6 +5,7 @@ const Roles =  require('../models/rol')
 
 const usersAuth = {}
 
+
 usersAuth.login = async (req,res) => {
 
     
